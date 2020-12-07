@@ -3,6 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AdminApp.Application", "AdminApp.Application", "{0671D21D-CA30-4D98-AD21-34BA48EC2364}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AdminApp.Domain", "AdminApp.Domain", "{F65B5DCA-EAE0-43AF-82BA-FC174285E007}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AdminApp.Infra.Data", "AdminApp.Infra.Data", "{C70E7750-6263-4092-AEFE-C9ADDE25C1D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AdminApp.Infra.Ioc", "AdminApp.Infra.Ioc", "{5B5BDD79-77EA-48E8-AA79-681F30A4A3F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AdminApp.UI.MVC", "AdminApp.UI.MVC", "{C99C577E-F7F4-4E54-AAD5-754895DC4440}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
