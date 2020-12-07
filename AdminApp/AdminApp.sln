@@ -19,6 +19,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersianTranslation", "Persi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdminApp.Domain", "AdminApp.Domain\AdminApp.Domain.csproj", "{16BA6562-9243-43E8-ADB4-4BA9D004B187}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdminApp.Infra.Data", "AdminApp.Infra.Data\AdminApp.Infra.Data.csproj", "{7B120C92-A1BB-4184-83D5-E921895357D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{16BA6562-9243-43E8-ADB4-4BA9D004B187}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16BA6562-9243-43E8-ADB4-4BA9D004B187}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16BA6562-9243-43E8-ADB4-4BA9D004B187}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B120C92-A1BB-4184-83D5-E921895357D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B120C92-A1BB-4184-83D5-E921895357D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B120C92-A1BB-4184-83D5-E921895357D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B120C92-A1BB-4184-83D5-E921895357D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +50,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{E2EDB38D-EAD5-487F-A0E9-63F13A5D27FD} = {C99C577E-F7F4-4E54-AAD5-754895DC4440}
 		{16BA6562-9243-43E8-ADB4-4BA9D004B187} = {F65B5DCA-EAE0-43AF-82BA-FC174285E007}
+		{7B120C92-A1BB-4184-83D5-E921895357D6} = {C70E7750-6263-4092-AEFE-C9ADDE25C1D7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AF132829-73A1-4D5A-9F64-5C255D42B0B1}
