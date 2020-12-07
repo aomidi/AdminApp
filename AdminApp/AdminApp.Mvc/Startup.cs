@@ -1,3 +1,4 @@
+using AdminApp.Infra.Data.Context;
 using AdminApp.Mvc.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -32,6 +33,11 @@ namespace AdminApp.Mvc
 
 			services.AddDbContext<ApplicationDbContext>(options =>
 				options.UseSqlServer(Configuration.GetConnectionString("AdminAppConnection")));
+
+			services.AddDbContext<AdminAppDbContext>(options =>
+			{
+				options.UseSqlServer(Configuration.GetConnectionString("AdminAppConnection"));
+			});
 
 			services.AddDefaultIdentity<IdentityUser>(options =>
 				{

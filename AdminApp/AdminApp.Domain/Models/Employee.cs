@@ -30,7 +30,8 @@ namespace AdminApp.Domain.Models
 
 
 		[Display(Name = "شماره تماس")]
-		[MaxLength(11, ErrorMessage = "{0} نمی تواند بیشتر از {1} کاراکتر باشد .")]
+		[MaxLength(15, ErrorMessage = "{0} نمی تواند بیشتر از {1} کاراکتر باشد .")]
+		[Column(name: "PhoneNumber", TypeName = "varchar(15)")]
 		public string PhoneNumber { get; set; }
 
 		[Display(Name = "جنسیت")]
