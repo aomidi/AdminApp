@@ -15,8 +15,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdminApp.Mvc", "AdminApp.Mvc\AdminApp.Mvc.csproj", "{E2EDB38D-EAD5-487F-A0E9-63F13A5D27FD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersianTranslation", "PersianTranslation\PersianTranslation.csproj", "{FCFD9CC0-2004-4A0A-8A56-952D652F6872}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdminApp.Domain", "AdminApp.Domain\AdminApp.Domain.csproj", "{16BA6562-9243-43E8-ADB4-4BA9D004B187}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdminApp.Infra.Data", "AdminApp.Infra.Data\AdminApp.Infra.Data.csproj", "{7B120C92-A1BB-4184-83D5-E921895357D6}"
@@ -35,10 +33,6 @@ Global
 		{E2EDB38D-EAD5-487F-A0E9-63F13A5D27FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2EDB38D-EAD5-487F-A0E9-63F13A5D27FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2EDB38D-EAD5-487F-A0E9-63F13A5D27FD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FCFD9CC0-2004-4A0A-8A56-952D652F6872}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FCFD9CC0-2004-4A0A-8A56-952D652F6872}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FCFD9CC0-2004-4A0A-8A56-952D652F6872}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FCFD9CC0-2004-4A0A-8A56-952D652F6872}.Release|Any CPU.Build.0 = Release|Any CPU
 		{16BA6562-9243-43E8-ADB4-4BA9D004B187}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{16BA6562-9243-43E8-ADB4-4BA9D004B187}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16BA6562-9243-43E8-ADB4-4BA9D004B187}.Release|Any CPU.ActiveCfg = Release|Any CPU

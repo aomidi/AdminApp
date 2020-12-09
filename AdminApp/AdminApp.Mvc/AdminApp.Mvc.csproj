@@ -25,7 +25,6 @@
   <ItemGroup>
     <ProjectReference Include="..\AdminApp.Infra.Data\AdminApp.Infra.Data.csproj" />
     <ProjectReference Include="..\AdminApp.Infra.IoC\AdminApp.Infra.IoC.csproj" />
-    <ProjectReference Include="..\PersianTranslation\PersianTranslation.csproj" />
   </ItemGroup>
 
 </Project>
