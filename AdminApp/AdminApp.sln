@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdminApp.Infra.Data", "Admi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdminApp.Application", "AdminApp.Application\AdminApp.Application.csproj", "{D0842670-64BF-49D4-9D54-F1B09B23997C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdminApp.Infra.IoC", "AdminApp.Infra.IoC\AdminApp.Infra.IoC.csproj", "{9EBB25F0-14CD-4ECE-B0E0-21A750DC4184}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +51,10 @@ Global
 		{D0842670-64BF-49D4-9D54-F1B09B23997C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0842670-64BF-49D4-9D54-F1B09B23997C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0842670-64BF-49D4-9D54-F1B09B23997C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EBB25F0-14CD-4ECE-B0E0-21A750DC4184}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EBB25F0-14CD-4ECE-B0E0-21A750DC4184}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EBB25F0-14CD-4ECE-B0E0-21A750DC4184}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EBB25F0-14CD-4ECE-B0E0-21A750DC4184}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -58,6 +64,7 @@ Global
 		{16BA6562-9243-43E8-ADB4-4BA9D004B187} = {F65B5DCA-EAE0-43AF-82BA-FC174285E007}
 		{7B120C92-A1BB-4184-83D5-E921895357D6} = {C70E7750-6263-4092-AEFE-C9ADDE25C1D7}
 		{D0842670-64BF-49D4-9D54-F1B09B23997C} = {0671D21D-CA30-4D98-AD21-34BA48EC2364}
+		{9EBB25F0-14CD-4ECE-B0E0-21A750DC4184} = {5B5BDD79-77EA-48E8-AA79-681F30A4A3F7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AF132829-73A1-4D5A-9F64-5C255D42B0B1}
