@@ -14,6 +14,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AdminApp.Infra.IoC;
 
 namespace AdminApp.Mvc
 {
@@ -72,6 +73,8 @@ namespace AdminApp.Mvc
 			services.AddRazorPages();
 
 			services.AddMemoryCache();
+
+			RegisterServices(services);
 		}
 
 		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -104,5 +107,11 @@ namespace AdminApp.Mvc
 				endpoints.MapRazorPages();
 			});
 		}
+
+		public static void RegisterServices(IServiceCollection service)
+		{
+			DependencyContainer.RegisterServices(service);
+		}
+
 	}
 }
