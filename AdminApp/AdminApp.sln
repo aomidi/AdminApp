@@ -13,15 +13,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.Ioc", "Infra.Ioc", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{C99C577E-F7F4-4E54-AAD5-754895DC4440}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdminApp.Mvc", "AdminApp.Mvc\AdminApp.Mvc.csproj", "{E2EDB38D-EAD5-487F-A0E9-63F13A5D27FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdminApp.Mvc", "AdminApp.Mvc\AdminApp.Mvc.csproj", "{E2EDB38D-EAD5-487F-A0E9-63F13A5D27FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdminApp.Domain", "AdminApp.Domain\AdminApp.Domain.csproj", "{16BA6562-9243-43E8-ADB4-4BA9D004B187}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdminApp.Domain", "AdminApp.Domain\AdminApp.Domain.csproj", "{16BA6562-9243-43E8-ADB4-4BA9D004B187}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdminApp.Infra.Data", "AdminApp.Infra.Data\AdminApp.Infra.Data.csproj", "{7B120C92-A1BB-4184-83D5-E921895357D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdminApp.Infra.Data", "AdminApp.Infra.Data\AdminApp.Infra.Data.csproj", "{7B120C92-A1BB-4184-83D5-E921895357D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdminApp.Application", "AdminApp.Application\AdminApp.Application.csproj", "{D0842670-64BF-49D4-9D54-F1B09B23997C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdminApp.Application", "AdminApp.Application\AdminApp.Application.csproj", "{D0842670-64BF-49D4-9D54-F1B09B23997C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdminApp.Infra.IoC", "AdminApp.Infra.IoC\AdminApp.Infra.IoC.csproj", "{9EBB25F0-14CD-4ECE-B0E0-21A750DC4184}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdminApp.Infra.IoC", "AdminApp.Infra.IoC\AdminApp.Infra.IoC.csproj", "{9EBB25F0-14CD-4ECE-B0E0-21A750DC4184}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
