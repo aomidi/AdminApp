@@ -1,5 +1,7 @@
 ﻿using AdminApp.Application.Interfaces;
+using AdminApp.Application.Services;
 using AdminApp.Domain.Interfaces;
+using AdminApp.Infra.Data.Repository;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace AdminApp.Infra.IoC
@@ -8,11 +10,13 @@ namespace AdminApp.Infra.IoC
 	{
 		public static void RegisterServices(IServiceCollection service)
 		{
-			//Application Layer
-			service.AddScoped<IEmployeeService, IEmployeeService>();
 
 			//Infra Data Layer
-			service.AddScoped<IEmployeeRepository, IEmployeeRepository>();
+			service.AddScoped<IEmployeeRepository, EmployeeRepository>();
+
+			//Application Layer
+			service.AddScoped<IEmployeeService, EmployeeService>();
+
 		}
 	}
 }
