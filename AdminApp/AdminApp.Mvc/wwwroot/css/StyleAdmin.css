@@ -1,0 +1,7 @@
+﻿body {
+}
+
+.rtl .md-form label {
+	right: 0 !important;
+	left: auto !important;
+}
