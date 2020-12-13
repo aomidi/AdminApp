@@ -55,7 +55,7 @@
 
 						<li>
 							<a class="collapsible-header waves-effect arrow-r">
-								<i class="w-fa fas fa-tachometer-alt m-3"></i>کارمندان<i class="fas fa-angle-down rotate-icon"></i>
+								<i class="w-fa fas fa-tachometer-alt notCollapsible"></i>کارمندان<i class="fas fa-angle-down rotate-icon"></i>
 							</a>
 							<div class="collapsible-body">
 								<ul>
@@ -67,7 +67,7 @@
 						</li>
 						<li>
 							<a class="collapsible-header waves-effect arrow-r">
-								<i class="w-fa fas fa-image m-3"></i>کاربران<i class="fas fa-angle-down rotate-icon"></i>
+								<i class="w-fa fas fa-image notCollapsible"></i>کاربران<i class="fas fa-angle-down rotate-icon"></i>
 							</a>
 							<div class="collapsible-body">
 								<ul>
@@ -79,7 +79,7 @@
 						</li>
 						<li>
 							<a class="collapsible-header waves-effect arrow-r">
-								<i class="w-fa fas fa-user m-3"></i>دسترسی ها<i class="fas fa-angle-down rotate-icon"></i>
+								<i class="w-fa fas fa-user notCollapsible"></i>دسترسی ها<i class="fas fa-angle-down rotate-icon"></i>
 							</a>
 							<div class="collapsible-body">
 								<ul>
@@ -95,10 +95,10 @@
 
 						<!-- Simple link -->
 						<li>
-							<a href="#" class="collapsible-header waves-effect m-3"><i class="w-fa far fa-calendar-check"></i>Calendar</a>
+							<a href="#" class="collapsible-header waves-effect m-3"><i class="w-fa far fa-calendar-check notCollapsible"></i>Calendar</a>
 						</li>
 						<li>
-							<a href="#" class="collapsible-header waves-effect m-3"><i class="w-fa fas fa-th-large"></i>Sections</a>
+							<a href="#" class="collapsible-header waves-effect m-3"><i class="w-fa fas fa-th-large notCollapsible"></i>Sections</a>
 						</li>
 
 					</ul>
@@ -191,8 +191,8 @@
 
 
 			// SideNav Initialization
-			$(".button-collapse").sideNav();
-
+			//$(".button-collapse").sideNav();
+			$('.button-collapse').sideNav({ edge: 'right'});
 			var container = document.querySelector('.custom-scrollbar');
 			var ps = new PerfectScrollbar(container,
 				{
