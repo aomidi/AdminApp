@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+	<title>@ViewBag.Title</title>
+	<!-- Font Awesome -->
+	@*<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">*@
+
+	<link href="~/lib/font-awesome/css/fontawesome.min.css" rel="stylesheet" />
+	<link href="~/lib/font-awesome/css/all.css" rel="stylesheet" />
+	<!-- Bootstrap core CSS -->
+	<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="~/lib/bootstrap-rtl/dist/css/bootstrap-rtl.min.css" rel="stylesheet" />
+	<!-- Material Design Bootstrap -->
+	<link href="~/lib/MDB-Pro_4.19.1/css/mdb.css" rel="stylesheet" />
+
+	<!-- Your custom styles (optional) -->
+	<link href="~/css/StyleAdmin.css" rel="stylesheet" />
+	<style>
+		</style>
+
+</head>
+<body class="rtl">
+
+	<!-- Main Navigation -->
+	<header>
+
+	</header>
+	<!-- Main Navigation -->
+
+<!-- Main layout -->
+<main>
+	<div class="container">
+		@RenderBody()
+	</div>
+
+</main>
+<!-- Main layout -->
+<!-- Footer -->
+<footer class="page-footer pt-0 mt-5">
+
+	<!-- Copyright -->
+	<div class="footer-copyright py-3 text-center">
+		<div class="container-fluid">
+			© 2020 Copyright: Alireza Omidi
+
+		</div>
+	</div>
+	<!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+<!-- SCRIPTS -->
+<!-- JQuery -->
+@*<script src="~/lib/jquery/dist/jquery.min.js"></script>*@
+<script src="~/lib/MDB-Pro_4.19.1/js/jquery-3.4.1.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script src="~/lib/MDB-Pro_4.19.1/js/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+@*<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>*@
+
+@*<script src="~/lib/MDB-Pro_4.19.1/js/bootstrap.min.js"></script>*@
+<!-- MDB core JavaScript -->
+<script src="~/lib/MDB-Pro_4.19.1/js/mdb.min.js"></script>
+
+<script src="~/lib/font-awesome/js/fontawesome.min.js"></script>
+<!-- Custom scripts -->
+<script>
+	$(function() {
+
+
+		// SideNav Initialization
+		//$(".button-collapse").sideNav();
+		$('.button-collapse').sideNav({ edge: 'right' });
+		var container = document.querySelector('.custom-scrollbar');
+		var ps = new PerfectScrollbar(container,
+			{
+				wheelSpeed: 2,
+				wheelPropagation: true,
+				minScrollbarLength: 20
+			});
+	})
+</script>
+@RenderSection("Scripts", required: false)
+</body>
+</html>
