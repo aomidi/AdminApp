@@ -1,4 +1,5 @@
 ﻿<!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -21,192 +22,209 @@
 	<!-- Your custom styles (optional) -->
 	<link href="~/css/StyleAdmin.css" rel="stylesheet" />
 	<style>
-	</style>
+		</style>
 
 </head>
-<body class="fixed-sn white-skin rtl">
+<body class="fixed-sn light-blue-skin rtl">
 
-	<!-- Main Navigation -->
-	<header>
+	<!--Double navigation-->
+<header>
 
-		<!-- Sidebar navigation -->
-		<div id="slide-out" class="side-nav sn-bg-4 ">
-			<ul class="custom-scrollbar">
+	<!-- Navbar -->
+	<nav class="navbar fixed-top navbar-toggleable-md navbar-expand-lg double-nav">
+		<div class="float-right">
+			<a href="#" data-activates="slide-out" class="button-collapse"><i class="fa fa-bars"></i></a>
+		</div>
 
-				<!-- Logo -->
-				<li class="logo-sn waves-effect py-3">
-					<div class="text-center">
-						<a href="#" class="pl-0"><img src="https://mdbootstrap.com/img/logo/mdb-transaprent-noshadows.png"></a>
+		<div class="container">
+			<!-- SideNav slide-out button -->
+			<!-- Breadcrumb-->
+			<div class="breadcrumb-dn mr-auto">
+				<p>Administrative Issues</p>
+			</div>
+
+			<ul class="nav navbar-nav nav-flex-icons ">
+
+				<li class="nav-item">
+					<a class="nav-link"><i class="fa fa-book"></i> <span class="clearfix d-none d-sm-inline-block">صفحه اصلی</span></a>
+				</li>
+				<li class="nav-item dropdown mr-5">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+					   aria-haspopup="true" aria-expanded="false">پروفایل</a>
+					<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+						<a class="dropdown-item" href="#">خروج</a>
+						<a class="dropdown-item" href="#">نمایش پروفایل</a>
 					</div>
 				</li>
 
-				<!-- Search Form -->
-				<li>
-					<form class="search-form" role="search">
-						<div class="md-form mt-0 waves-light">
-							<input type="text" class="form-control py-2" placeholder="Search">
-						</div>
-					</form>
-				</li>
-
-				<!-- Side navigation links -->
-				<li>
-					<ul class="collapsible collapsible-accordion">
-
-						<li>
-							<a class="collapsible-header waves-effect arrow-r">
-								<i class="w-fa fas fa-tachometer-alt notCollapsible"></i>کارمندان<i class="fas fa-angle-down rotate-icon"></i>
-							</a>
-							<div class="collapsible-body">
-								<ul>
-									<li>
-										<a href="#" class="waves-effect">لیست کارمندان</a>
-									</li>
-								</ul>
-							</div>
-						</li>
-						<li>
-							<a class="collapsible-header waves-effect arrow-r">
-								<i class="w-fa fas fa-image notCollapsible"></i>کاربران<i class="fas fa-angle-down rotate-icon"></i>
-							</a>
-							<div class="collapsible-body">
-								<ul>
-									<li>
-										<a href="#" class="waves-effect">لیست کاربران</a>
-									</li>
-								</ul>
-							</div>
-						</li>
-						<li>
-							<a class="collapsible-header waves-effect arrow-r">
-								<i class="w-fa fas fa-user notCollapsible"></i>دسترسی ها<i class="fas fa-angle-down rotate-icon"></i>
-							</a>
-							<div class="collapsible-body">
-								<ul>
-									<li>
-										<a href="#" class="waves-effect">نقش ها</a>
-									</li>
-									<li>
-										<a href="#" class="waves-effect">کلایم ها</a>
-									</li>
-								</ul>
-							</div>
-						</li>
-
-						<!-- Simple link -->
-						<li>
-							<a href="#" class="collapsible-header waves-effect m-3"><i class="w-fa far fa-calendar-check notCollapsible"></i>Calendar</a>
-						</li>
-						<li>
-							<a href="#" class="collapsible-header waves-effect m-3"><i class="w-fa fas fa-th-large notCollapsible"></i>Sections</a>
-						</li>
-
-					</ul>
-				</li>
-				<!-- Side navigation links -->
-
 			</ul>
-			<div class="sidenav-bg mask-strong"></div>
 		</div>
-		<!-- Sidebar navigation -->
+	</nav>
+	<!-- /.Navbar -->
 
-		<!-- Navbar -->
-		<nav class="navbar fixed-top navbar-expand-lg scrolling-navbar double-nav">
+	<!-- Sidebar navigation -->
 
-			<!-- SideNav slide-out button -->
-			<div class="float-left">
-				<a href="#" data-activates="slide-out" class="button-collapse"><i class="fa fa-bars"></i></a>
-			</div>
-
-			<!-- Breadcrumb -->
-			<div class="breadcrumb-dn mr-auto">
-				<p>Cards</p>
-			</div>
-
-			<div class="d-flex change-mode">
-
-				<!-- Navbar links -->
-				<ul class="nav navbar-nav nav-flex-icons ml-auto">
-
-					<!-- Dropdown -->
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle waves-effect" href="#" id="userDropdown" data-toggle="dropdown"
-						   aria-haspopup="true" aria-expanded="false">
-							<i class="fas fa-user"></i> <span class="clearfix d-none d-sm-inline-block">پروفایل</span>
+	<div id="slide-out" class="side-nav fixed blue-grey darken-3 ">
+			<ul class="custom-scrollbar">
+			<!-- Logo -->
+			<li>
+				<div class="logo-wrapper waves-light">
+					<a href="#">
+						<img src="https://mdbootstrap.com/img/logo/mdb-transparent.png" class="img-fluid flex-center">
+					</a>
+				</div>
+			</li>
+			<!--/. Logo -->
+			<!--Social-->
+			<!--/Social-->
+			<!--Search Form-->
+			<li>
+				<form class="search-form" role="search">
+					<div class="form-group md-form mt-0 pt-1 waves-light">
+						<input type="text" class="form-control" placeholder="جستجو">
+					</div>
+				</form>
+			</li>
+			<!--/.Search Form-->
+			<!-- Side navigation links -->
+			<li>
+				<ul class="collapsible collapsible-accordion">
+					<li>
+						<a class="collapsible-header waves-effect arrow-r">
+							<i class="fas fa-chevron-right notCollapsible"></i>کاربران<i class="fas fa-angle-down rotate-icon"></i>
 						</a>
-						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
-							<a class="dropdown-item" href="#">Log Out</a>
-							<a class="dropdown-item" href="#">My account</a>
+						<div class="collapsible-body">
+							<ul>
+								<li>
+									<a href="#" class="waves-effect">لیست کاربران</a>
+								</li>
+								<li>
+									<a href="#" class="waves-effect">لیست کارمندان</a>
+								</li>
+								<li>
+									<a href="#" class="waves-effect">تغییر رمز عبور کارمندان</a>
+								</li>
+								<li>
+									<a href="#" class="waves-effect">تغییر رمز عبور کاربران</a>
+								</li>
+							</ul>
 						</div>
 					</li>
-
+					<li>
+						<a class="collapsible-header waves-effect arrow-r">
+							<i class="far fa-hand-pointer notCollapsible"></i>نقش ها<i class="fas fa-angle-down rotate-icon"></i>
+						</a>
+						<div class="collapsible-body">
+							<ul>
+								<li>
+									<a href="#" class="waves-effect">تعریف نقش</a>
+								</li>
+								<li>
+									<a href="#" class="waves-effect">کاربران و نقش ها</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<a class="collapsible-header waves-effect arrow-r">
+							<i class="far fa-eye notCollapsible"></i> فعالیت ها<i class="fas fa-angle-down rotate-icon"></i>
+						</a>
+						<div class="collapsible-body">
+							<ul>
+								<li>
+									<a href="#" class="waves-effect">تعریف فعالیت</a>
+								</li>
+								<li>
+									<a href="#" class="waves-effect">نقش ها و فعالیت ها</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<a class="collapsible-header waves-effect arrow-r">
+							<i class="far fa-envelope notCollapsible"></i>گروه ها<i class="fas fa-angle-down rotate-icon"></i>
+						</a>
+						<div class="collapsible-body">
+							<ul>
+								<li>
+									<a href="#" class="waves-effect">گروه کاربری</a>
+								</li>
+								<li>
+									<a href="#" class="waves-effect">گروه نقش ها</a>
+								</li>
+								<li>
+									<a href="#" class="waves-effect">گروه فعالیت ها</a>
+								</li>
+							</ul>
+						</div>
+					</li>
 				</ul>
-				<!-- Navbar links -->
-			</div>
-		</nav>
-		<!-- Navbar -->
+			</li>
+			<!--/. Side navigation links -->
+		</ul>
+		<div class="sidenav-bg mask-strong"></div>
+	</div>
+	<!--/. Sidebar navigation -->
+</header>
+	<!--/.Double navigation-->
+	<!--Main Layout-->
+<main>
+	<div class="container">
+		@RenderBody()
+	</div>
 
-	</header>
-	<!-- Main Navigation -->
-
-	<!-- Main layout -->
-	<main>
-		<div class="container">
-			@RenderBody()
-		</div>
-
-	</main>
+</main>
 <!-- Main layout -->
+<!-- Footer -->
+<footer class="page-footer pt-0 mt-5">
 
-	<!-- Footer -->
-	<footer class="page-footer pt-0 mt-5">
+	<!-- Copyright -->
+	<div class="footer-copyright py-3 text-center">
+		<div class="container-fluid">
+			© 2020 Copyright: Alireza Omidi
 
-		<!-- Copyright -->
-		<div class="footer-copyright py-3 text-center">
-			<div class="container-fluid">
-				© 2020 Copyright: Alireza Omidi
-
-			</div>
 		</div>
-		<!-- Copyright -->
+	</div>
+	<!-- Copyright -->
 
-	</footer>
-	<!-- Footer -->
+</footer>
+<!-- Footer -->
+<!-- SCRIPTS -->
+<!-- JQuery -->
+@*<script src="~/lib/jquery/dist/jquery.min.js"></script>*@
+<script src="~/lib/MDB-Pro_4.19.1/js/jquery-3.4.1.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script src="~/lib/MDB-Pro_4.19.1/js/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+@*<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>*@
 
-	<!-- SCRIPTS -->
+@*<script src="~/lib/MDB-Pro_4.19.1/js/bootstrap.min.js"></script>*@
+<!-- MDB core JavaScript -->
+<script src="~/lib/MDB-Pro_4.19.1/js/mdb.min.js"></script>
 
-	<!-- JQuery -->
-	@*<script src="~/lib/jquery/dist/jquery.min.js"></script>*@
-	<script src="~/lib/MDB-Pro_4.19.1/js/jquery-3.4.1.min.js"></script>
-	<!-- Bootstrap tooltips -->
-	<script src="~/lib/MDB-Pro_4.19.1/js/popper.min.js"></script>
-	<!-- Bootstrap core JavaScript -->
-	<script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
-	@*<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>*@
-
-	@*<script src="~/lib/MDB-Pro_4.19.1/js/bootstrap.min.js"></script>*@
-	<!-- MDB core JavaScript -->
-	<script src="~/lib/MDB-Pro_4.19.1/js/mdb.min.js"></script>
-
-	<script src="~/lib/font-awesome/js/fontawesome.min.js"></script>
-	<!-- Custom scripts -->
-	<script>
-		$(function () {
+<script src="~/lib/font-awesome/js/fontawesome.min.js"></script>
+<!-- Custom scripts -->
+<script>
+	$(function() {
 
 
-			// SideNav Initialization
-			//$(".button-collapse").sideNav();
-			$('.button-collapse').sideNav({ edge: 'right'});
-			var container = document.querySelector('.custom-scrollbar');
-			var ps = new PerfectScrollbar(container,
-				{
-					wheelSpeed: 2,
-					wheelPropagation: true,
-					minScrollbarLength: 20
-				});
-		})
-	</script>
-	@RenderSection("Scripts", required: false)
+		// SideNav Initialization
+		//$(".button-collapse").sideNav();
+		$(".button-collapse").sideNav({
+			edge: 'right',
+			breakpoint: 1200
+		});
+		var container = document.querySelector('.custom-scrollbar');
+		var ps = new PerfectScrollbar(container,
+			{
+				wheelSpeed: 2,
+				wheelPropagation: true,
+				minScrollbarLength: 20
+			});
+	});
 
+</script>
+@RenderSection("Scripts", required: false)
 </body>
 </html>
