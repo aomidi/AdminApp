@@ -4,23 +4,23 @@
 }
 @font-face {
 	font-family: 'vazir-medium-ui';
-	src: url('lib/fonts/vazir/ui/vazir-medium-ui.eot') format('embedded-opentype'), url('lib/fonts/vazir/ui/vazir-medium-ui.ttf') format('truetype'), url('lib/fonts/vazir/ui/vazir-medium-ui.woff') format('woff'), url('lib/fonts/vazir/ui/vazir-medium-ui.woff2') format('woff2');
+	src: url('../lib/fonts/vazir/ui/vazir-medium-ui.eot') format('embedded-opentype'), url('../lib/fonts/vazir/ui/vazir-medium-ui.ttf') format('truetype'), url('../lib/fonts/vazir/ui/vazir-medium-ui.woff') format('woff'), url('../lib/fonts/vazir/ui/vazir-medium-ui.woff2') format('woff2');
 }
 @font-face {
 	font-family: 'vazir-light-ui';
-	src: url('lib/fonts/vazir/ui/vazir-light-ui.eot') format('embedded-opentype'), url('lib/fonts/vazir/ui/vazir-light-ui.ttf') format('truetype'), url('lib/fonts/vazir/ui/vazir-light-ui.woff') format('woff'), url('lib/fonts/vazir/ui/vazir-light-ui.woff2') format('woff2');
+	src: url('../lib/fonts/vazir/ui/vazir-light-ui.eot') format('embedded-opentype'), url('../lib/fonts/vazir/ui/vazir-light-ui.ttf') format('truetype'), url('../lib/fonts/vazir/ui/vazir-light-ui.woff') format('woff'), url('../lib/fonts/vazir/ui/vazir-light-ui.woff2') format('woff2');
 }
 @font-face {
 	font-family: 'vazir-bold-ui';
-	src: url('lib/fonts/vazir/ui/vazir-bold-ui.eot') format('embedded-opentype'), url('lib/fonts/vazir/ui/vazir-bold-ui.ttf') format('truetype'), url('lib/fonts/vazir/ui/vazir-bold-ui.woff') format('woff'), url('lib/fonts/vazir/ui/vazir-bold-ui.woff2') format('woff2');
+	src: url('../lib/fonts/vazir/ui/vazir-bold-ui.eot') format('embedded-opentype'), url('../lib/fonts/vazir/ui/vazir-bold-ui.ttf') format('truetype'), url('../lib/fonts/vazir/ui/vazir-bold-ui.woff') format('woff'), url('../lib/fonts/vazir/ui/vazir-bold-ui.woff2') format('woff2');
 }
 @font-face {
 	font-family: 'vazir-black-ui';
-	src: url('lib/fonts/vazir/ui/vazir-black-ui.eot') format('embedded-opentype'), url('lib/fonts/vazir/ui/vazir-black-ui.ttf') format('truetype'), url('lib/fonts/vazir/ui/vazir-black-ui.woff') format('woff'), url('lib/fonts/vazir/ui/vazir-black-ui.woff2') format('woff2');
+	src: url('../lib/fonts/vazir/ui/vazir-black-ui.eot') format('embedded-opentype'), url('../lib/fonts/vazir/ui/vazir-black-ui.ttf') format('truetype'), url('../lib/fonts/vazir/ui/vazir-black-ui.woff') format('woff'), url('../lib/fonts/vazir/ui/vazir-black-ui.woff2') format('woff2');
 }
 
 html, body {
-	font-family: vazir-regular-ui;
+	font-family: vazir-medium-ui;
 }
 
 .rtl .md-form label {
