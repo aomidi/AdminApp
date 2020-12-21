@@ -95,15 +95,16 @@
 							<!-- First column -->
 							<div class="col-md-6">
 								<div class="md-form mb-0">
-									<input type="email" id="form76" class="form-control validate">
+									<input type="email" id="form76" class="form-control validate" style="direction: ltr;">
 									<label for="form76">آدرس ایمیل</label>
 								</div>
 							</div>
 							<!-- Second column -->
 
 							<div class="col-md-6">
-								<div class="md-form mb-0">
-									<input type="text" id="form77" class="form-control validate">
+								<div class="md-form mb-0 md-outline input-with-pre-icon">
+									<i class="fas fa-envelope input-prefix"></i>
+									<input type="url" id="form77" class="form-control validate" style="direction: ltr;">
 									<label for="form77" data-error="wrong" data-success="right">آدرس وب سایت</label>
 								</div>
 							</div>
@@ -113,12 +114,35 @@
 						<div class="row">
 
 							<!-- First column -->
-							<div class="col-md-12">
+							<div class="col-md-6">
 								<div class="md-form mb-0">
 									<textarea type="text" id="form78" class="md-textarea form-control" rows="3"></textarea>
 									<label for="form78">در مورد من</label>
 								</div>
 							</div>
+
+							<div class="col-md-6">
+								<div class="md-form">
+									<input type="search" id="form-autocomplete" class="form-control mdb-autocomplete">
+									<button class="mdb-autocomplete-clear">
+										<svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="https://www.w3.org/2000/svg">
+											<path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" />
+											<path d="M0 0h24v24H0z" fill="none" />
+										</svg>
+									</button>
+									<label for="form-autocomplete" class="active">نام استان محل زندگی</label>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6">
+								<div class="md-form md-outline input-with-post-icon datepicker" id="customDays">
+									<input placeholder="Select date" type="text" id="Customization" class="form-control">
+									<label for="Customization">Try me...</label>
+									<i class="fas fa-calendar input-prefix" tabindex=0></i>
+								</div>
+							</div>
+
 						</div>
 						<!-- Third row -->
 						<!-- Fourth row -->
@@ -140,3 +164,235 @@
 
 		</div>
 	</div>
+<div class="row">
+	<div class="col-md-12">
+		<input type="text" />
+
+    <hr />
+
+    <input type="text" class="form-control" />
+
+    <hr />
+
+    <div class="md-form">
+      <label>Top Learn</label>
+      <input type="text" class="form-control" />
+    </div>
+
+    <hr />
+
+    <input type="text" class="form-control form-control-lg" placeholder="lg" />
+
+    <br />
+
+    <input type="text" class="form-control" placeholder="md" />
+
+    <br />
+
+    <input type="text" class="form-control form-control-sm" placeholder="sm" />
+
+    <hr />
+
+    <div class="md-form form-lg">
+      <label>JG</label>
+      <input type="text" class="form-control form-control-lg" />
+    </div>
+
+    <div class="md-form">
+      <label>MD</label>
+      <input type="text" class="form-control" />
+    </div>
+
+    <div class="md-form form-sm">
+      <label>SM</label>
+      <input type="text" class="form-control form-control-sm" />
+    </div>
+
+    <hr />
+
+    <div class="md-form">
+      <i class="fas fa-envelope prefix"></i>
+      <input type="text" class="form-control" />
+      <label>E-Mail</label>
+    </div>
+
+    <hr />
+
+    <label>Disable</label>
+    <input type="text" class="form-control" disabled />
+
+    <hr />
+
+    <div class="md-form">
+      <i class="fas fa-user prefix"></i>
+      <input type="text" class="form-control" disabled />
+      <label class="disabled">User Name</label>
+    </div>
+
+    <hr />
+
+    <div class="md-form">
+      <i class="fas fa-user prefix"></i>
+      <input type="password" class="form-control validate" />
+      <label data-error="wrong" data-success="right">Password</label>
+    </div>
+
+    <hr />
+
+    <div class="md-form">
+      <i class="fas fa-envelope prefix"></i>
+      <input type="email" class="form-control validate" />
+      <label data-error="wrong" data-success="right">E-Mail</label>
+    </div>
+
+    <hr />
+
+    <div class="md-form">
+      <i class="fas fa-envelope prefix"></i>
+      <input type="email" class="form-control" placeholder="Email Address" />
+      <label>E-Mail</label>
+    </div>
+
+    <hr />
+
+    <div class="md-form">
+      <i class="fas fa-envelope prefix"></i>
+      <input type="email" class="form-control" value="Email Address" />
+      <label>E-Mail</label>
+    </div>
+
+    <hr />
+
+    <div class="md-form md-outline">
+      <input type="text" class="form-control" />
+      <label>Top Learn</label>
+    </div>
+
+    <hr />
+
+    <div class="md-form md-outline">
+      <input type="text" class="form-control" placeholder="Top Lean" />
+      <label>Top Learn</label>
+    </div>
+
+    <hr />
+
+    <div class="md-form md-outline">
+      <input type="text" class="form-control" value="Top Lean" />
+      <label>Top Learn</label>
+    </div>
+
+    <hr />
+
+    <div class="md-form md-outline">
+      <i class="fas fa-envelope prefix"></i>
+      <input type="text" class="form-control" />
+      <label>E-Mail Address</label>
+    </div>
+
+    <hr />
+
+    <div class="md-form md-outline input-with-pre-icon">
+      <i class="fas fa-envelope input-prefix"></i>
+      <input type="text" class="form-control" />
+      <label>E-Mail Address</label>
+    </div>
+
+    <hr />
+
+    <div class="md-form md-outline input-with-post-icon">
+      <i class="fas fa-envelope input-prefix"></i>
+      <input type="text" class="form-control" />
+      <label>E-Mail Address</label>
+    </div>
+
+    <hr />
+
+    <div class="md-form md-outline input-with-pre-icon">
+      <i class="fas fa-envelope input-prefix"></i>
+      <input type="email" class="form-control validate" />
+      <label data-error="wrong" data-success="right">E-Mail Address</label>
+    </div>
+
+    <hr />
+
+    <div class="md-form md-bg">
+      <input type="email" class="form-control" />
+      <label>E-Mail Address</label>
+    </div>
+
+    <hr>
+
+    <div class="md-form md-outline">
+      <textarea class="form-control" cols="30" rows="10"></textarea>
+      <label>
+        Text Area
+      </label>
+    </div>
+	</div>
+</div>
+@section Scripts
+{
+	<script>
+		$('.datepicker').datepicker({
+			weekdaysShort: ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa'],
+			showMonthsShort: true
+		});
+		var states = [
+			"Alabama",
+			"Alaska",
+			"Arizona",
+			"Arkansas",
+			"California",
+			"Colorado",
+			"Connecticut",
+			"Delaware",
+			"Florida",
+			"Georgia",
+			"Hawaii",
+			"Idaho",
+			"Illnois",
+			"Indiana",
+			"Iowa",
+			"Kansas",
+			"Kentucky",
+			"Louisiana",
+			"Maine",
+			"Maryland",
+			"Massachusetts",
+			"Michigan",
+			"Minnesota",
+			"Mississippi",
+			"Missouri",
+			"Montana",
+			"Nebraska",
+			"Nevada",
+			"New Hampshire",
+			"New Jersey",
+			"New Mexico",
+			"New York",
+			"North Carolina",
+			"North Dakota",
+			"Ohio",
+			"Oklahoma",
+			"Oregon",
+			"Pennsylvania",
+			"Rhode Island",
+			"South Carolina",
+			"South Dakota",
+			"Tennessee",
+			"Texas",
+			"Utah",
+			"Vermont",
+			"Virginia",
+			"Washington",
+			"West Virginia",
+			"Wisconsin",
+			"Wyoming"
+		];
+
+		$('#form-autocomplete').mdbAutocomplete({
+			data: states
+		});
+	</script>
+}

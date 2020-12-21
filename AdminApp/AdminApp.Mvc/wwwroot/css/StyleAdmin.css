@@ -27,11 +27,17 @@ html, body {
 	font-family: vazir-medium-ui;
 }
 
-.rtl .md-form label {
+/*.rtl .md-form label {
 	right: 0 !important;
 	left: auto !important;
 }
-
+*/.mdb-autocomplete-clear {
+	right: auto !important;
+	left: 0 !important;
+}
+.mdb-autocomplete ~ label {
+	width: unset;
+}
 .fa-angle-down {
 	right: auto !important;
 	left: 0 !important;
