@@ -13,5 +13,15 @@ namespace AdminApp.Mvc.Areas.Administrator.Controllers
 		{
 			return View();
 		}
+
+		public IActionResult Neon()
+		{
+			return View();
+		}
+
+		public IActionResult NeonGlory()
+		{
+			return View();
+		}
 	}
 }

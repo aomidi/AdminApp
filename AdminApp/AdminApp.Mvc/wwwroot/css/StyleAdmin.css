@@ -24,9 +24,12 @@
 }
 
 html, body {
-	font-family: vazir-medium-ui;
+	font-family: vazir-regular-ui;
 }
 
+#slide-out {
+	font-family: vazir-bold-ui;
+}
 /*.rtl .md-form label {
 	right: 0 !important;
 	left: auto !important;
