@@ -1,11 +1,14 @@
-﻿// Configure bundling and minification for the project.
-// More info at https://go.microsoft.com/fwlink/?LinkId=808241
 [
   {
-    "outputFileName": "wwwroot/css/site.min.css",
-    // An array of relative input file paths. Globbing patterns supported
+    "outputFileName": "wwwroot/css/siteBundle.css",
     "inputFiles": [
-      "wwwroot/css/site.css"
+        "wwwroot/lib/font-awesome/css/fontawesome.min.css\"",
+        "wwwroot/lib/font-awesome/css/all.css\"",
+        "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+        "wwwroot/lib/MDB-Pro_4.19.1/css/mdb.css",
+        "wwwroot/lib/bootstrap-rtl/dist/css/bootstrap-rtl.min.css",
+        "wwwroot/lib/MDB-Pro_4.19.1/css/mdb-rtl.css",
+        "wwwroot/css/StyleAdmin.css"
     ]
   },
   {
@@ -13,12 +16,15 @@
     "inputFiles": [
       "wwwroot/js/site.js"
     ],
-    // Optionally specify minification options
     "minify": {
       "enabled": true,
       "renameLocals": true
-    },
-    // Optinally generate .map file
-    "sourceMap": false
+    }
+  },
+  {
+    "outputFileName": "wwwroot/lib/font-awesome/css/all.min.css",
+    "inputFiles": [
+      "wwwroot/lib/font-awesome/css/all.css"
+    ]
   }
 ]
